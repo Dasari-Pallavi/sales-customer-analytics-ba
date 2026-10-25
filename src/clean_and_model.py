@@ -1,7 +1,8 @@
 import pandas as pd
 
 RAW = "data/raw/online_retail_II.csv"
-df = pd.read_csv(RAW, encoding="latin1", parse_dates=["InvoiceDate"])
+df = pd.read_csv(RAW, encoding="latin1")
+df["InvoiceDate"] = pd.to_datetime(df["InvoiceDate"], errors='coerce')
 df = df.rename(columns={"Customer ID": "CustomerID"})
 print("Raw rows:", len(df))
 
@@ -37,7 +38,7 @@ cancel_prod = (cancels.groupby(["StockCode", "Description"])
                .reset_index())
 
 # 6. RFM segmentation (customers with an ID only)
-known = sales.dropna(subset=["CustomerID"])
+known = sales.dropna(subset=["CustomerID", "InvoiceDate"])
 snapshot = known["InvoiceDate"].max() + pd.Timedelta(days=1)
 rfm = (known.groupby("CustomerID")
        .agg(Recency=("InvoiceDate", lambda x: (snapshot - x.max()).days),
