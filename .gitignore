@@ -1,0 +1,6 @@
+# Ignore the massive raw data download file
+data/raw/online_retail_II.csv
+
+# Ignore local python cache files
+__pycache__/
+*.pyc
