@@ -23,3 +23,13 @@ A data analytics project that processes retail transaction history to evaluate c
    pip install pandas
    python src/clean_and_model.py
    ```
+
+## Data Quality & Exploratory Data Analysis (EDA) Findings
+
+A thorough profiling audit of the raw transaction database revealed several data quality constraints that required structured data engineering remedies:
+
+* **Missing Demographics:** Approximately **24.9% of total rows lack a valid Customer ID**, requiring robust isolation filtering to preserve the metric accuracy of customer analytics models.
+* **Transaction Anomalies:** Identified **9,251 explicitly cancelled invoices** along with thousands of negative or zero-value quantity and pricing row arrays representing operational returns and balancing logs.
+* **Data Redundancy:** Discovered a baseline layer of **5,268 duplicate entries** requiring automated deduplication handling rules.
+* **Geographical Dominance:** Global purchase distributions are heavily skewed, with the **United Kingdom dominating over 89%** of cumulative transaction records.
+* **Seasonal Demand Shifts:** Sales activity maps demonstrate clear seasonality, tracking steady monthly increases that peak significantly in **November** due to holiday retail spikes.
