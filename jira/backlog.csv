@@ -1,0 +1,93 @@
+Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project lead id,Project description,Priority,Resolution,Assignee,Assignee Id,Reporter,Reporter Id,Creator,Creator Id,Created,Updated,Last Viewed,Resolved,Due date,Votes,Description,Environment,Watchers,Watchers Id,Original estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Custom field (Development),Custom field (Issue color),Custom field (Rank),Sprint,Custom field (Start date),Custom field (Story point estimate),Custom field (Team),Custom field (Vulnerability),Comment,Comment,Parent,Parent key,Parent summary,Status category,Status category changed
+na,SA-9,10012,Story,To Do,SA,Sales Analytics ,software,Pallavi Dasari,712020:3a56f360-3325-4ab6-b462-d4d111cf1580,,Medium,,,,Pallavi Dasari,712020:3a56f360-3325-4ab6-b462-d4d111cf1580,Pallavi Dasari,712020:3a56f360-3325-4ab6-b462-d4d111cf1580,25-10-2026 19:46,25-10-2026 19:56,25-10-2026 19:46,,,0,"As a Data Analyst,
+I want to establish a clean folder framework on GitHub and my local machine,
+so that my project code, docs, and configurations are secure and tracked.
+
+Acceptance Criteria:
+
+* Repository contains docs/ and src/ folders.
+* A comprehensive .gitignore is set up to block raw CSVs and Excel data.",,Pallavi Dasari,712020:3a56f360-3325-4ab6-b462-d4d111cf1580,,,,,,,,,{},,0|hzzzzr:,,,,,,,,10004,SA-1,Data Preparation,To Do,25-10-2026 19:46
+Data Preparation,SA-1,10004,Epic,To Do,SA,Sales Analytics ,software,Pallavi Dasari,712020:3a56f360-3325-4ab6-b462-d4d111cf1580,,Medium,,,,Pallavi Dasari,712020:3a56f360-3325-4ab6-b462-d4d111cf1580,Pallavi Dasari,712020:3a56f360-3325-4ab6-b462-d4d111cf1580,25-10-2026 19:33,25-10-2026 19:33,25-10-2026 19:48,,,0,,,Pallavi Dasari,712020:3a56f360-3325-4ab6-b462-d4d111cf1580,,,,,,,,,{},yellow,0|i0000n:,,,,,,,,,,,To Do,25-10-2026 19:33
+Data Preparation,SA-2,10005,Epic,To Do,SA,Sales Analytics ,software,Pallavi Dasari,712020:3a56f360-3325-4ab6-b462-d4d111cf1580,,Medium,,,,Pallavi Dasari,712020:3a56f360-3325-4ab6-b462-d4d111cf1580,Pallavi Dasari,712020:3a56f360-3325-4ab6-b462-d4d111cf1580,25-10-2026 19:37,25-10-2026 19:37,25-10-2026 19:41,,,0,,,Pallavi Dasari,712020:3a56f360-3325-4ab6-b462-d4d111cf1580,,,,,,,,,{},grey,0|i0000o:,,,,,,,,,,,To Do,25-10-2026 19:37
+KPI Dashboard,SA-3,10006,Epic,To Do,SA,Sales Analytics ,software,Pallavi Dasari,712020:3a56f360-3325-4ab6-b462-d4d111cf1580,,Medium,,,,Pallavi Dasari,712020:3a56f360-3325-4ab6-b462-d4d111cf1580,Pallavi Dasari,712020:3a56f360-3325-4ab6-b462-d4d111cf1580,25-10-2026 19:37,25-10-2026 19:37,,,,0,,,Pallavi Dasari,712020:3a56f360-3325-4ab6-b462-d4d111cf1580,,,,,,,,,{},grey,0|i0000w:,,,,,,,,,,,To Do,25-10-2026 19:37
+Product & Geography,SA-4,10007,Epic,To Do,SA,Sales Analytics ,software,Pallavi Dasari,712020:3a56f360-3325-4ab6-b462-d4d111cf1580,,Medium,,,,Pallavi Dasari,712020:3a56f360-3325-4ab6-b462-d4d111cf1580,Pallavi Dasari,712020:3a56f360-3325-4ab6-b462-d4d111cf1580,25-10-2026 19:38,25-10-2026 19:38,,,,0,,,Pallavi Dasari,712020:3a56f360-3325-4ab6-b462-d4d111cf1580,,,,,,,,,{},grey,0|i0001b:,,,,,,,,,,,To Do,25-10-2026 19:38
+Customer Segmentation,SA-5,10008,Epic,To Do,SA,Sales Analytics ,software,Pallavi Dasari,712020:3a56f360-3325-4ab6-b462-d4d111cf1580,,Medium,,,,Pallavi Dasari,712020:3a56f360-3325-4ab6-b462-d4d111cf1580,Pallavi Dasari,712020:3a56f360-3325-4ab6-b462-d4d111cf1580,25-10-2026 19:38,25-10-2026 19:38,,,,0,,,Pallavi Dasari,712020:3a56f360-3325-4ab6-b462-d4d111cf1580,,,,,,,,,{},grey,0|i0001i:,,,,,,,,,,,To Do,25-10-2026 19:38
+Returns,SA-6,10009,Epic,To Do,SA,Sales Analytics ,software,Pallavi Dasari,712020:3a56f360-3325-4ab6-b462-d4d111cf1580,,Medium,,,,Pallavi Dasari,712020:3a56f360-3325-4ab6-b462-d4d111cf1580,Pallavi Dasari,712020:3a56f360-3325-4ab6-b462-d4d111cf1580,25-10-2026 19:38,25-10-2026 19:38,,,,0,,,Pallavi Dasari,712020:3a56f360-3325-4ab6-b462-d4d111cf1580,,,,,,,,,{},grey,0|i0001w:,,,,,,,,,,,To Do,25-10-2026 19:38
+UAT & Release ,SA-7,10010,Epic,To Do,SA,Sales Analytics ,software,Pallavi Dasari,712020:3a56f360-3325-4ab6-b462-d4d111cf1580,,Medium,,,,Pallavi Dasari,712020:3a56f360-3325-4ab6-b462-d4d111cf1580,Pallavi Dasari,712020:3a56f360-3325-4ab6-b462-d4d111cf1580,25-10-2026 19:38,25-10-2026 19:38,,,,0,,,Pallavi Dasari,712020:3a56f360-3325-4ab6-b462-d4d111cf1580,,,,,,,,,{},grey,0|i00022:,,,,,,,,,,,To Do,25-10-2026 19:38
+UAT & Release ,SA-8,10011,Epic,To Do,SA,Sales Analytics ,software,Pallavi Dasari,712020:3a56f360-3325-4ab6-b462-d4d111cf1580,,Medium,,,,Pallavi Dasari,712020:3a56f360-3325-4ab6-b462-d4d111cf1580,Pallavi Dasari,712020:3a56f360-3325-4ab6-b462-d4d111cf1580,25-10-2026 19:38,25-10-2026 19:38,25-10-2026 19:42,,,0,,,Pallavi Dasari,712020:3a56f360-3325-4ab6-b462-d4d111cf1580,,,,,,,,,{},grey,0|i0002f:,,,,,,,,,,,To Do,25-10-2026 19:38
+SA-1: Establish local and remote Git repository structure,SA-10,10013,Story,Done,SA,Sales Analytics ,software,Pallavi Dasari,712020:3a56f360-3325-4ab6-b462-d4d111cf1580,,Medium,Done,,,Pallavi Dasari,712020:3a56f360-3325-4ab6-b462-d4d111cf1580,Pallavi Dasari,712020:3a56f360-3325-4ab6-b462-d4d111cf1580,25-10-2026 20:01,25-10-2026 21:42,25-10-2026 21:42,25-10-2026 21:32,,0,"As a Data Analyst,
+I want to establish a clean folder framework on GitHub and my local machine,
+so that my project code, docs, and configurations are secure and tracked.
+
+Acceptance Criteria:
+
+* Repository contains docs/ and src/ folders.
+* A comprehensive .gitignore is set up to block raw CSVs and Excel data.",,Pallavi Dasari,712020:3a56f360-3325-4ab6-b462-d4d111cf1580,,,,,,,,,{},,0|i0002r:,Sprint 1 - Foundation,,1,,,25/Oct/26 9:42 PM;712020:3a56f360-3325-4ab6-b462-d4d111cf1580;Data dictionary markdown cataloged and synced under docs/03_DATA_DICTIONARY.md.,,10004,SA-1,Data Preparation,Done,25-10-2026 21:32
+Build Python automated cleaning and ETL pipeline script,SA-11,10014,Story,Done,SA,Sales Analytics ,software,Pallavi Dasari,712020:3a56f360-3325-4ab6-b462-d4d111cf1580,,High,Done,,,Pallavi Dasari,712020:3a56f360-3325-4ab6-b462-d4d111cf1580,Pallavi Dasari,712020:3a56f360-3325-4ab6-b462-d4d111cf1580,25-10-2026 20:01,25-10-2026 21:41,25-10-2026 21:41,25-10-2026 21:32,,0,"As a Data Engineer,
+I want to process the raw online retail dataset using pandas,
+so that duplicates are eliminated, date objects parse cleanly, and revenue fields calculate correctly.
+
+Acceptance Criteria:
+
+* Exact duplicates are dropped from processing.
+* InvoiceDate text string converts reliably to datetime formats.
+* Output processes valid entries separate from cancellations.",,Pallavi Dasari,712020:3a56f360-3325-4ab6-b462-d4d111cf1580,,,,,,,,,{},,0|i0002v:,Sprint 1 - Foundation,,5,,,"25/Oct/26 9:41 PM;712020:3a56f360-3325-4ab6-b462-d4d111cf1580;Python ETL engine execution verified against source file. 541,910 rows parsed. Target summary extracts saved to data/processed/.",,10004,SA-1,Data Preparation,Done,25-10-2026 21:32
+Design high-level financial summary performance scorecards,SA-13,10016,Story,Done,SA,Sales Analytics ,software,Pallavi Dasari,712020:3a56f360-3325-4ab6-b462-d4d111cf1580,,High,Done,,,Pallavi Dasari,712020:3a56f360-3325-4ab6-b462-d4d111cf1580,Pallavi Dasari,712020:3a56f360-3325-4ab6-b462-d4d111cf1580,25-10-2026 20:01,25-10-2026 23:36,25-10-2026 23:36,25-10-2026 23:35,,0,"As an Executive Stakeholder,
+I want to see core business health metrics (Revenue, Orders, AOV, Cancellations),
+so that I can evaluate baseline sales performance instantly.
+
+Acceptance Criteria:
+
+* Revenue card matches clean Python values (£10.6M).
+* Average Order Value (AOV) and order counts match target metrics.
+* Card components look clean and match executive dashboard styling.",,Pallavi Dasari,712020:3a56f360-3325-4ab6-b462-d4d111cf1580,,,,,,,,,{},,0|i00030:,Sprint 1 - Foundation,,3,,,25/Oct/26 9:41 PM;712020:3a56f360-3325-4ab6-b462-d4d111cf1580;High-level scorecard visualization structures configured and balanced against backend analytics logs.,"25/Oct/26 11:36 PM;712020:3a56f360-3325-4ab6-b462-d4d111cf1580;Dashboard foundation page established. Executive scorecards (Revenue, Orders, Customers, AOV) and timeline master filters deployed and operational.",10006,SA-3,KPI Dashboard,Done,25-10-2026 23:35
+Connect processed Python data extracts to reporting engine,SA-12,10015,Story,Done,SA,Sales Analytics ,software,Pallavi Dasari,712020:3a56f360-3325-4ab6-b462-d4d111cf1580,,High,Done,,,Pallavi Dasari,712020:3a56f360-3325-4ab6-b462-d4d111cf1580,Pallavi Dasari,712020:3a56f360-3325-4ab6-b462-d4d111cf1580,25-10-2026 20:01,25-10-2026 23:36,25-10-2026 23:36,25-10-2026 23:35,,0,"As a Business Analyst,
+I want to load the local output CSV datasets into Looker Studio,
+so that my metrics feed into interactive visual modules.
+
+Acceptance Criteria:
+
+* Output files from data/processed load with correct column structures.
+* Schema datatypes (currency, integers) display correctly.
+* Live data refresh maps smoothly to local directory inputs.",,Pallavi Dasari,712020:3a56f360-3325-4ab6-b462-d4d111cf1580,,,,,,,,,{},,0|i00036:,Sprint 1 - Foundation,,2,,,25/Oct/26 9:41 PM;712020:3a56f360-3325-4ab6-b462-d4d111cf1580;High-level scorecard visualization structures configured and balanced against backend analytics logs.,"25/Oct/26 11:36 PM;712020:3a56f360-3325-4ab6-b462-d4d111cf1580;Dashboard foundation page established. Executive scorecards (Revenue, Orders, Customers, AOV) and timeline master filters deployed and operational.",10006,SA-3,KPI Dashboard,Done,25-10-2026 23:35
+Implement interactive regional maps and product tables,SA-14,10017,Story,Done,SA,Sales Analytics ,software,Pallavi Dasari,712020:3a56f360-3325-4ab6-b462-d4d111cf1580,,Medium,Done,,,Pallavi Dasari,712020:3a56f360-3325-4ab6-b462-d4d111cf1580,Pallavi Dasari,712020:3a56f360-3325-4ab6-b462-d4d111cf1580,25-10-2026 20:01,26-10-2026 01:19,25-10-2026 21:11,26-10-2026 01:18,,0,"As a Sales Director,
+I want to break down total sales performance by country and inventory stock code,
+so that I can identify our most profitable markets and inventory lines.
+
+Acceptance Criteria:
+
+* Interactive map visualizes global transaction density.
+* Product matrix table displays top 500 lines sorted by total revenue.
+* Country-level filters update the table metrics dynamically.",,Pallavi Dasari,712020:3a56f360-3325-4ab6-b462-d4d111cf1580,,,,,,,,,{},,0|i0003j:,Sprint 2 - Insights & Release,,3,,,,,10007,SA-4,Product & Geography,Done,26-10-2026 01:18
+Develop interactive RFM customer segmentation filters,SA-15,10018,Story,Done,SA,Sales Analytics ,software,Pallavi Dasari,712020:3a56f360-3325-4ab6-b462-d4d111cf1580,,High,Done,,,Pallavi Dasari,712020:3a56f360-3325-4ab6-b462-d4d111cf1580,Pallavi Dasari,712020:3a56f360-3325-4ab6-b462-d4d111cf1580,25-10-2026 20:02,26-10-2026 01:19,25-10-2026 21:11,26-10-2026 01:18,,0,"As a Marketing Specialist,
+I want to filter buyers by their specific RFM segments (Champions, At Risk, Lost),
+so that I can coordinate targeted loyalty campaigns.
+
+Acceptance Criteria:
+
+* Segment distribution chart functions as an interactive filter.
+* Displays customer group metrics based on clean Python quartile scores.",,Pallavi Dasari,712020:3a56f360-3325-4ab6-b462-d4d111cf1580,,,,,,,,,{},,0|i0003l:,Sprint 2 - Insights & Release,,5,,,,,10008,SA-5,Customer Segmentation,Done,26-10-2026 01:18
+Construct cancellation rate modules and return trends,SA-16,10019,Story,Done,SA,Sales Analytics ,software,Pallavi Dasari,712020:3a56f360-3325-4ab6-b462-d4d111cf1580,,Medium,Done,,,Pallavi Dasari,712020:3a56f360-3325-4ab6-b462-d4d111cf1580,Pallavi Dasari,712020:3a56f360-3325-4ab6-b462-d4d111cf1580,25-10-2026 20:02,26-10-2026 01:19,25-10-2026 21:12,26-10-2026 01:18,,0,"As an Operations Manager,
+I want to track invoice cancellation rates and stock items with high returns,
+so that I can optimize supply chain quality controls.
+
+Acceptance Criteria:
+
+* Total cancellation rate KPI accurately matches the 14.81% script metric.
+* Dedicated table tracks returned quantities per stock description item.",,Pallavi Dasari,712020:3a56f360-3325-4ab6-b462-d4d111cf1580,,,,,,,,,{},,0|i0003u:,Sprint 2 - Insights & Release,,3,,,,,10009,SA-6,Returns,Done,26-10-2026 01:18
+Execute UAT testing and data validation checks,SA-17,10020,Story,Done,SA,Sales Analytics ,software,Pallavi Dasari,712020:3a56f360-3325-4ab6-b462-d4d111cf1580,,High,Done,,,Pallavi Dasari,712020:3a56f360-3325-4ab6-b462-d4d111cf1580,Pallavi Dasari,712020:3a56f360-3325-4ab6-b462-d4d111cf1580,25-10-2026 20:02,26-10-2026 01:19,25-10-2026 21:13,26-10-2026 01:18,,0,"As a QA Engineer,
+I want to reconcile visual dashboard totals against backend Python terminal logs,
+so that I can verify absolute data integrity before release.
+
+Acceptance Criteria:
+
+* Looker Studio aggregate revenue numbers match local script data down to the exact decimal value.
+* Zero mismatch deviations are found across all filter selections.",,Pallavi Dasari,712020:3a56f360-3325-4ab6-b462-d4d111cf1580,,,,,,,,,{},,0|i0003v:,Sprint 2 - Insights & Release,,2,,,,,10010,SA-7,UAT & Release ,Done,26-10-2026 01:18
+Deploy active dashboard application link and publish project profile,SA-18,10021,Story,Done,SA,Sales Analytics ,software,Pallavi Dasari,712020:3a56f360-3325-4ab6-b462-d4d111cf1580,,High,Done,,,Pallavi Dasari,712020:3a56f360-3325-4ab6-b462-d4d111cf1580,Pallavi Dasari,712020:3a56f360-3325-4ab6-b462-d4d111cf1580,25-10-2026 20:02,26-10-2026 01:19,25-10-2026 21:13,26-10-2026 01:18,,0,"As a Project Owner,
+I want to link my live Looker Studio dashboard link into my GitHub README page,
+so that my professional data portfolio is complete and viewable.
+
+Acceptance Criteria:
+
+* README.md showcases verified metrics.
+* Live public dashboard access link operates without security blocks.",,Pallavi Dasari,712020:3a56f360-3325-4ab6-b462-d4d111cf1580,,,,,,,,,{},,0|i00043:,Sprint 2 - Insights & Release,,2,,,,,10011,SA-8,UAT & Release ,Done,26-10-2026 01:18
