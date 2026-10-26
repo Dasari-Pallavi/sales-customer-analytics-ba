@@ -1,15 +1,14 @@
 # Requirements Traceability Matrix (RTM)
 
-| Req ID | Requirement | User Story | Jira Key | Dashboard Element | Test Case | Status |
-|---|---|---|---|---|---|---|
-| FR-01 | KPI cards: revenue, orders, customers, AOV | US-03 | SA-10 | Page 1 scorecards | TC-01 | Not tested |
-| FR-02 | Monthly revenue trend + date filter | US-04 | SA-10 | Page 1 line chart | TC-02 | Not tested |
-| FR-03 | Top 10 products | US-05 | SA-10 | Page 2 bar chart | TC-03 | Not tested |
-| FR-04 | Revenue by country | US-06 | SA-10 | Page 2 map/table | TC-04 | Not tested |
-| FR-05 | RFM segmentation | US-07 | SA-10 | Page 3 segment charts | TC-05 | Not tested |
-| FR-06 | Cancellation analysis | US-08 | SA-10 | Page 4 cancelled units | TC-06 | Not tested |
-| FR-07 | Filters: country, date, segment | US-03, US-04 | SA-10 | Global filters | TC-07 | Not tested |
-| NFR-01 | Loads in under 5 seconds | - | - | Whole report | TC-08 | Not tested |
-| NFR-03 | View-only shareable link | - | - | Share settings | TC-09 | Not tested |
-
-> Fill the `SA-10` keys with your real Jira ticket numbers, and change "Not tested" to Pass/Fail after UAT.
+| Req ID | Requirement Description | Jira Key | UAT Case | Development Status | Testing Status |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| **BR-01** | Core Financial KPI Tracking Dashboard | SA-11 | TC-01 | Completed | **Pass** |
+| **BR-02** | Automated Historical Data Preprocessing Pipeline | SA-11 | TC-01 | Completed | **Pass** |
+| **BR-03** | Dynamic Transaction Time-Series Filters | SA-12 | TC-02 | Completed | **Pass** |
+| **BR-04** | Operational Inventory Product Performance Analysis | SA-14 | TC-03 | Completed | **Pass** |
+| **BR-05** | Global Geographical Logistics Performance Map | SA-15 | TC-04 | Completed | **Pass** |
+| **BR-06** | RFM Behavioral Customer Cohort Distribution Model | SA-16 | TC-05 | Completed | **Pass** |
+| **BR-07** | High-Volume Return and Cancellation Tracking Log | SA-17 | TC-06 | Completed | **Pass** |
+| **NFR-01** | Sub-5 Second Report Dashboard Loading Canvas Cache | SA-18 | TC-08 | Completed | **Pass** |
+| **NFR-02** | Multi-Source File Upload Ingestion Engine | SA-12 | TC-01 | Completed | **Pass** |
+| **NFR-03** | Public Read-Only Presentation Access Control Rules | SA-18 | TC-09 | Completed | **Pass** |
