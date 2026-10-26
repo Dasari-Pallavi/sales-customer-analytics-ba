@@ -15,12 +15,14 @@
 | TC-09 | NFR-03 | Open link in a private browser window | Report visible, not editable | | |
 
 ## Data reconciliation
-| Metric | Python script | Dashboard | Match? |
-|---|---|---|---|
-| Total revenue | | | |
-| Orders | | | |
-| Customers | | | |
-| AOV | | | |
+
+| Metric | Python | Dashboard | Match? |
+| :--- | :--- | :--- | :--- |
+| Revenue | 4,663,273.69 | 4,663,273.69 | Yes |
+| Orders | 19,960 | 19,960 | Yes |
+| Customers | 2,997 | 2,997 | Yes |
+| AOV | 533.17 | 533.17 | Yes |
+
 
 ## Defect log
 | ID | Test | Description | Severity | Fix | Retest |
