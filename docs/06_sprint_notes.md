@@ -1,46 +1,19 @@
-# Sprint Notes
+# Scrum Lifecycle Sprint Notes & Retrospective Logs
 
-**Sprint length:** 1 week  |  **Team:** Solo BA/analyst (playing BA, developer and tester)
+## Sprint 1: Foundation (Planned Story Points: 13)
+* **Status:** Deployed and Closed successfully.
+* **Velocity Metrics:** **13 Story Points Completed** (100% target alignment).
+* **Sprint Review:** Successfully demoed an automated Python data preprocessing ETL pipeline that reads raw transactions, resolves day/month mixed-date anomalies, and outputs clean analytics files. Deployed the initial core financial summary KPIs page in Google Looker Studio.
+* **Retrospective Summary:**
+  * *What went well:* Establishing explicit validation rules and schema thresholds upfront prevented logic exceptions during initial dataset ingestion loops.
+  * *What did not go well:* The initial front-end Looker Studio Customer scorecard double-counted consumers due to daily transactional grain duplication constraints.
+  * *Process Improvements:* Swapped the scorecard data source layout directly over to the customer-unique RFM file matrix block to enforce a clean `Count Distinct` parameter check.
 
-## Sprint 1: Foundation
-**Goal:** Clean data and deliver the first dashboard page.
-**Stories:** US-01, US-02, US-03, US-04  (13 points)
-| Story | Planned | Done? |
-|---|---|---|
-| US-01 | 5 | |
-| US-02 | 2 | |
-| US-03 | 3 | |
-| US-04 | 3 | |
-
-**Velocity (points completed):**
-**Sprint review (demo notes):**
-**Retrospective**
-- What went well:
-- What did not go well:
-- What to improve:
-
-## Sprint 2: Insights & Release
-**Goal:** Product, geography, customer and returns analysis, then UAT.
-**Stories:** US-05, US-06, US-07, US-08, US-09  (20 points)
-| Story | Planned | Done? |
-|---|---|---|
-| US-05 | 3 | |
-| US-06 | 3 | |
-| US-07 | 8 | |
-| US-08 | 3 | |
-| US-09 | 3 | |
-
-**Velocity:**
-**Sprint review:**
-**Retrospective**
-- What went well:
-- What did not go well:
-- What to improve:
-
-## Scrum ceremonies followed
-Sprint planning, daily check-in (self), sprint review, retrospective, backlog refinement.
-
-## Agile Process & Velocity Retrospective Notes
-* **Burndown Behavior Matrix:** The sprint burndown charts display a sudden "cliff-drop" progression alignment model rather than a standard daily diagonal trend line.
-* **Operational Context:** This framework was executed entirely as a solo project. The engineer operated simultaneously across all lifecycle delivery capacities (Business Analyst, Data Engineer, QA, and Scrum Master). 
-* **Tracking Strategy:** Task cards were actively pushed across tracking columns upon comprehensive UAT verification of the integrated analytics deliverables rather than daily fractional increments. Absolute scope requirements were 100% completed within deadlines.
+## Sprint 2: Insights & Release (Planned Story Points: 20)
+* **Status:** Deployed and Closed successfully.
+* **Velocity Metrics:** **20 Story Points Completed** (100% target alignment).
+* **Sprint Review:** Demoed advanced analytical dashboard modules including dynamic top product performance tables with optional unit sales metrics toggles, global choropleth transaction maps, and an automated RFM behavioral segmentation distribution graph suite. Filed full offline PDF records and public viewing share filters.
+* **Retrospective Summary:**
+  * *What went well:* Creating clear task flows within our project tracking framework speeded up layout construction on pages 2, 3, and 4.
+  * *What did not go well:* Running an isolated developer sprint model forced a cliff-drop graphic trend rather than standard daily scrum diagonal charts due to bulk end-of-cycle tracking task movement.
+  * *Process Improvements:* Added dedicated solo project documentation notes into our workspace log to clarify tracking strategies to stakeholders.
